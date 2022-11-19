@@ -42,10 +42,10 @@ game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(
 end)
 
 
-Section:NewButton("buy box toy SandMan", "for 50 k", function()
+Section:NewButton("buy Flower Rainbow", "for 900 m", function()
     
 local args = {
-    [1] = "Box Toy SandMan"
+    [1] = "Flower Rainbow"
 }
 
 game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
