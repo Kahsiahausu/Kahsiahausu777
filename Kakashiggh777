@@ -9,7 +9,7 @@ local Section = Tab:NewSection("buy items")
 
 
 
-Section:NewButton("buy F", "cost 2 k", function()
+Section:NewButton("buy Inxta", "cost 2 k", function()
     
 local args = {
     [1] = "Inxta"
@@ -20,7 +20,7 @@ game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(
 end)
 
 
-Section:NewButton("buy box toy Harambe", "for 750m", function()
+Section:NewButton("buy Xox", "for 1b", function()
     
 local args = {
     [1] = "Xox"
@@ -31,10 +31,10 @@ game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(
 end)
 
 
-Section:NewButton("buy box toy sanic", "for 50 k", function()
+Section:NewButton("buy Lenay", "for 1b", function()
     
 local args = {
-    [1] = "Box Toy Sanic"
+    [1] = "Lenay"
 }
 
 game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
