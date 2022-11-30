@@ -20,7 +20,7 @@ game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(
 end)
 
 
-Section:NewButton("buy Pyono", "cost 1 k", function()
+Section:NewButton("buy Pyono", "for 1 k", function()
     
 local args = {
     [1] = "Pyono"
@@ -31,10 +31,10 @@ game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(
 end)
 
 
-Section:NewButton("buy Lenay", "for 1b", function()
+Section:NewButton("buy Lenay", "for Silver Trophy 100 k", function()
     
 local args = {
-    [1] = "Lenay"
+    [1] = "Silver Trophy"
 }
 
 game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
